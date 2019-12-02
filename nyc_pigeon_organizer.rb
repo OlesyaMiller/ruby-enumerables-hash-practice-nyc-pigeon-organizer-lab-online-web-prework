@@ -4,8 +4,6 @@ def nyc_pigeon_organizer(data)
 
   new_hash = {}
   
-  #color = (data[].map {|x| x.keys})
-  
   color = data[:color]
   gender = data[:gender]
   lives = data[:lives]
@@ -17,8 +15,6 @@ def nyc_pigeon_organizer(data)
         new_hash
       end
     end
-    
-     #binding.pry
   end
   
   
