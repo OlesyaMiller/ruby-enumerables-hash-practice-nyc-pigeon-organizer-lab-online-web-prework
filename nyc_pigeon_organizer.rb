@@ -14,16 +14,19 @@ def nyc_pigeon_organizer(data)
     value.each do |key1, value1|
       value1.each do |name|
         new_hash[name] = {:color => [], :gender => [], :lives => []}
+        new_hash
       end
     end
+    
      #binding.pry
   end
+  
   
   color.each do |key, value|
     new_hash.each do |key1, value1|
       #binding.pry 
       if value.include?(key1)
-        new_hash[:color].push(key)
+        new_hash[key1][:color] << key 
         #if true get the color inside the color array 
       end
     end
