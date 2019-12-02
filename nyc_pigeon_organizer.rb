@@ -27,10 +27,28 @@ def nyc_pigeon_organizer(data)
       #binding.pry 
       if value.include?(key1)
         new_hash[key1][:color] << key 
-        #if true get the color inside the color array 
       end
     end
   end   
-  #binding.pry 
   
+  gender.each do |key, value|
+    new_hash.each do |key1, value1|
+      #binding.pry 
+      if value.include?(key1)
+        new_hash[key1][:gender] << key 
+      end
+    end
+  end   
+  
+  lives.each do |key, value|
+    new_hash.each do |key1, value1|
+      #binding.pry 
+      if value.include?(key1)
+        new_hash[key1][:lives] << key 
+      end
+    end
+  end 
+ 
+  #binding.pry 
+  new_hash
 end
