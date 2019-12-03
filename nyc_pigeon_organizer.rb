@@ -41,5 +41,5 @@ def nyc_pigeon_organizer(data)
   # end 
  
   #binding.pry 
-  new_hash
+  #new_hash
 end
