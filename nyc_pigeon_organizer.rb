@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   new_hash = {}
   color = data[:color]
   gender = data[:gender]
-  lives = lives[:lives]
+  lives = data[:lives]
   
   data.each do |key, value| 
     value.each do |key1, value1|
