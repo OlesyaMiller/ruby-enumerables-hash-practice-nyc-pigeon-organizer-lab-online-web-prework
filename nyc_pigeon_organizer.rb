@@ -14,7 +14,6 @@ def nyc_pigeon_organizer(data)
   
   
   color.each do |key, value|
-    binding.pry
     new_hash.each do |key1, value1|
       if value.include?(key1)
         new_hash[key1][:color] << key 
