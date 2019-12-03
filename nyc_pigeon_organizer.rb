@@ -38,7 +38,6 @@ binding.pry
   #     end
   #   end
   # end 
- 
-  #binding.pry 
+
   #new_hash
 end
