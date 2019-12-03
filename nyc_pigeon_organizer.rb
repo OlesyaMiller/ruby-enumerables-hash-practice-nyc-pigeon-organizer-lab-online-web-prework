@@ -27,7 +27,7 @@ def nyc_pigeon_organizer(data)
     new_hash.each do |key1, value1|
       #binding.pry 
       if value.include?(key1)
-        new_hash[key1][:gender] << key 
+        new_hash[key1][:gender] << key.to_s  
       end
     end
   end   
