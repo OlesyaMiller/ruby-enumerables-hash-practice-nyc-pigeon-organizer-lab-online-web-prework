@@ -15,7 +15,6 @@ def nyc_pigeon_organizer(data)
     end
   end
   
-  
   color.each do |key, value|
     new_hash.each do |key1, value1|
       if value.include?(key1)
