@@ -32,14 +32,14 @@ def nyc_pigeon_organizer(data)
     end
   end   
   
-  lives.each do |key, value|
-    new_hash.each do |key1, value1|
-      #binding.pry 
-      if value.include?(key1)
-        new_hash[key1][:lives] << key 
-      end
-    end
-  end 
+  # lives.each do |key, value|
+  #   new_hash.each do |key1, value1|
+  #     #binding.pry 
+  #     if value.include?(key1)
+  #       new_hash[key1][:lives] << key 
+  #     end
+  #   end
+  # end 
 
   new_hash
 end
