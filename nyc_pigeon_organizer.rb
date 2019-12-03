@@ -1,12 +1,12 @@
 require 'pry'
 
 def nyc_pigeon_organizer(data)
-binding.pry
   new_hash = {}
   
   data.each do |key, value| 
     value.each do |key1, value1|
       value1.each do |name|
+        binding.pry
         new_hash[name] = {:color => [], :gender => [], :lives => []}
       end
     end
